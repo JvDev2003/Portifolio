@@ -1,0 +1,31 @@
+.card{
+    display: flex;
+    flex-direction: column;
+    width: 23vw;
+    padding: 20px;
+    justify-content: center;
+    border-radius: 10px;
+    min-height: 220px;
+    background-color: rgb(11, 11, 11);
+    border: 2px solid rgb(11, 11, 11);
+    transition: .4s;
+
+    .tecnologias{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 5px;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+        >li{
+            padding: 5px;
+            border: 2px solid blue;
+            list-style: none;
+        }
+    }
+}
+
+.card:hover{
+    cursor: pointer;
+    border: 2px solid white;
+}

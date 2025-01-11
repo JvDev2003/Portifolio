@@ -1,0 +1,26 @@
+.menu{
+    width: 100vw;
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.6);
+    align-items: center;
+    justify-content: space-between;
+    min-height: 10dvh;
+    padding: 10px;
+    color: white;
+    position: fixed;
+    ul{
+        list-style: none;
+        display: flex;
+        justify-content: space-around;
+
+        a{
+            padding: 15px;
+            color: white;
+            border-radius: 5px;
+
+        }
+        a:hover{
+            background-color: rgba(138, 133, 132, 0.4);
+        }
+    }
+}
