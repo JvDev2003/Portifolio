@@ -10,7 +10,7 @@ const Redes = () => {
   return (
     <div className={styles.container}>
         {redes.map(rede => (
-            <div>
+            <div onClick={() => handleClick(rede.link)}>
                 <img src={rede.image} />
             </div>
         ))}
