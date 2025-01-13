@@ -1,7 +1,7 @@
 .card{
     display: flex;
     width: 80vw;
-    max-height: 50vh;
+    min-height: 50vh;
     padding: 20px;
     background-color: rgb(11, 11, 11);
     gap: 15px;
@@ -25,4 +25,11 @@
         gap: 10px;
     }
 
+}
+
+@media (max-width: 1024px) {
+    .card{
+        width: 90vw;
+        flex-direction: column;
+    }
 }

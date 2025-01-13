@@ -14,3 +14,12 @@
         cursor: pointer;
     }
 }
+
+@media (max-width: 1024px) {
+    .container{
+
+        flex-wrap: wrap;
+    
+
+    }
+}

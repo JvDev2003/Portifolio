@@ -3,7 +3,7 @@
     flex-direction: column;
     padding: 30px 10px;
     border-radius: 10px;
-    width: 24vw;
+    width: 23vw;
     justify-content: center;
     align-items: center;
     background-color: rgb(11, 11, 11);
@@ -34,4 +34,11 @@
 
 .card:hover{
     border: 2px solid white;
+}
+
+@media (max-width: 1024px) {
+    .card{
+        width: 90vw;
+    }
+    
 }
