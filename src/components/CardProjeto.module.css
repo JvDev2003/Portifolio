@@ -1,0 +1,61 @@
+.card{
+    display: flex;
+    flex-direction: column;
+    width: 40vw;
+    background-color: rgb(11, 11, 11);
+    border-radius: 10px;
+    padding: 20px;
+    min-height: 370px;
+    justify-content: center;
+    border: 2px solid rgb(11, 11, 11);
+    transition: .4s;
+
+    .image{
+
+        img{
+            max-width: 300px;
+            max-height: 300px;
+            border-radius: 10px;
+        }
+    }
+
+    .content{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+
+        .tecnologias{
+            display: flex;
+            flex-wrap: wrap;
+            gap: 5px;
+
+            >span{
+                padding: 10px;
+                border: 2px solid rgb(5, 5, 200);
+                border-radius: 10px;
+            }
+
+        }
+
+        .ok, .noOk{
+            padding: 10px;
+            border-radius: 10px;
+            display: inline;
+            text-align: center;
+        }
+
+        .ok{
+            background-color: green;
+        }
+
+        .noOk{
+            background-color: blue;
+        }
+    }
+
+}
+
+.card:hover{
+    border: 2px solid white;
+    cursor: pointer;
+}

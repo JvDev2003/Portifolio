@@ -7,6 +7,7 @@ import Formacoes from './pages/Formacoes'
 import Inicio from './pages/Inicio'
 import Sobre from './pages/Sobre'
 import Footer from './components/Footer'
+import Projetos from './pages/Projetos'
 function App() {
 
   return (
@@ -15,6 +16,7 @@ function App() {
       <main>
         <Inicio/>
         <Sobre/>
+        <Projetos/>
         <Experiencias/>
         <Formacoes/>
         <Certificacoes/>

@@ -1,0 +1,123 @@
+export const projetos = [
+  {
+    nome: "Task Controller",
+    imagem: "/Portifolio/task.png",
+    descricao: "Aplicação criada para o controle pessoal das minhas tarefas",
+    tecnologias: ["TypeScript", "MongoDB", "React", "Express", "Node"],
+    link: "https://github.com/JvDev2003/TasksController",
+    stack: ["front", "back"],
+    finished: false,
+  },
+  {
+    nome: "Sistema de Notificações",
+    imagem: "/Portifolio/projetoNotificacao.png",
+    descricao:
+      "Aplicação criada como projeto na faculdade, o objetivo é criar um front-end e uma API para se comunicar com o front-end e as API's de outros alunos",
+    tecnologias: [
+      "TypeScript",
+      "MongoDB",
+      "React",
+      "Express",
+      "Node",
+      "Tailwind",
+    ],
+    link: "https://github.com/JvDev2003/projetoServidor",
+    stack: ["front", "back"],
+    finished: false,
+  },
+  {
+    nome: "Aplicação para melhoria da Faculdade",
+    imagem: "/Portifolio/melhoria.png",
+    descricao:
+      "Tem como intuito facilitar a comunicação entre administrativo e professores",
+    tecnologias: [
+      "JavaScript",
+      "TypeScript",
+      "Node",
+      "React",
+      "MongoDB",
+      "Material UI",
+    ],
+    link: "https://github.com/JvDev2003/projetoFinalV2",
+    stack: ["front", "back"],
+    finished: false,
+  },
+  {
+    nome: "Secret Word",
+    imagem: "/Portifolio/word.png",
+    descricao:
+      "Feito durante o curso React do Zero a Maestria (c/ hooks, router, API, Projetos)",
+    tecnologias: ["JavaScript", "React"],
+    link: "https://github.com/JvDev2003/secretword",
+    stack: ["front"],
+    finished: true,
+  },
+  {
+    nome: "MiniBlog",
+    imagem: "/Portifolio/blog.png",
+    descricao:
+      "Feito durante o curso React do Zero a Maestria (c/ hooks, router, API, Projetos)",
+    tecnologias: ["JavaScript", "Firebase", "React"],
+    link: "https://github.com/JvDev2003/miniblog",
+    stack: ["front"],
+    finished: true,
+  },
+  {
+    nome: "Sistema de comunicação TCP/IP",
+    imagem: "/Portifolio/java.png",
+    descricao:
+      "Aplicação criada como projeto na faculdade, o objetivo se comunicar via TCP/IP com a aplicação de outros alunos.",
+    tecnologias: ["Java", "MySQL", "Maven"],
+    link: "https://github.com/JvDev2003/Projeto-Comunica-o-TCP-IP-Java",
+    stack: ["back"],
+    finished: true,
+  },
+  {
+    nome: "API Restful",
+    imagem: "/Portifolio/rest.webp",
+    descricao: "API feita durante o curso de TypeSript",
+    tecnologias: ["TypeScript", "Express"],
+    link: "https://github.com/JvDev2003/14_api_restful",
+    stack: ["back"],
+    finished: true,
+  },
+  {
+    nome: "Projetos Certificação Responsive Design",
+    imagem: "/Portifolio/design.png",
+    descricao: "Projetos feitos durante a certificação de Responsive Design",
+    tecnologias: ["HTML/CSS", "JavaScript"],
+    link: "https://github.com/JvDev2003/Projetos-FreeCodeCamp",
+    stack: ["front"],
+    finished: true,
+  },
+  {
+    nome: "Drum Pad",
+    imagem: "/Portifolio/drum.png",
+    descricao:
+      "Painel de Samples feito em React durante a certificação de Front End Development Libraries",
+    tecnologias: ["React", "JavaScript"],
+    link: "https://codepen.io/JvDev2003/pen/ZEVvojw",
+    stack: ["front"],
+    finished: true,
+  },
+  {
+    nome: "Calculadora",
+    imagem: "/Portifolio/calculadora.png",
+    descricao:
+      "Calculadora feita em React durante a certificação de Front End Development Libraries",
+    tecnologias: ["React", "JavaScript"],
+    link: "https://codepen.io/JvDev2003/pen/PoXQzwV",
+    stack: ["front"],
+    finished: true,
+  },
+  {
+    nome: "25 + 5 Clock",
+    imagem: "/Portifolio/clock.png",
+    descricao:
+      "Cronometro intervalado feito em React durante a certificação de Front End Development Libraries",
+    tecnologias: ["React", "JavaScript"],
+    link: "https://codepen.io/JvDev2003/pen/LYMQxqX",
+    stack: ["front"],
+    finished: true,
+  },
+];

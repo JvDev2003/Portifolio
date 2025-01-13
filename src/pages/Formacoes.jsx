@@ -4,7 +4,7 @@ import CardFormacao from '../components/CardFormacao'
 
 const Formacoes = () => {
   return (
-    <article className={styles.container}>
+    <article className={styles.container} id='formacoes'>
         <h2>Formações</h2>
         <div>
             {formacoes.map(formacao => (

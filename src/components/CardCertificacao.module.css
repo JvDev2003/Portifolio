@@ -5,7 +5,7 @@
     padding: 20px;
     justify-content: center;
     border-radius: 10px;
-    min-height: 220px;
+    min-height: 240px;
     background-color: rgb(11, 11, 11);
     border: 2px solid rgb(11, 11, 11);
     transition: .4s;
@@ -18,8 +18,9 @@
         align-items: center;
         padding: 10px;
         >li{
-            padding: 5px;
-            border: 2px solid blue;
+            padding: 10px;
+            border: 2px solid rgb(5, 5, 200);
+            border-radius: 10px;
             list-style: none;
         }
     }

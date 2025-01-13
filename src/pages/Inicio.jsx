@@ -3,7 +3,7 @@ import TypingText from "../components/TypingText"
 
 const Inicio = () => {
   return (
-    <article className={styles.inicio}>
+    <article className={styles.inicio} id="inicio">
         <div className={styles.overlay}>
           <TypingText text="Olá meu nome é João" speed={100}/>
           <p>Eu sou um programador fullstack</p>

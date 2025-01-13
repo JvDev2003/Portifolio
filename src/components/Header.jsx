@@ -5,11 +5,12 @@ const Header = () => {
     <header className={styles.menu}>
         <span>Portifólio</span>
         <ul>
-            <li><a href="#">Inicio</a></li>
-            <li><a href="#">Projetos</a></li>
-            <li><a href="#">Experiências</a></li>
-            <li><a href="#">Formações</a></li>
-            <li><a href="#">Conquistas</a></li>
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#projetos">Projetos</a></li>
+            <li><a href="#experiencias">Experiências</a></li>
+            <li><a href="#formacoes">Formações</a></li>
+            <li><a href="#certificacoes">Certificados</a></li>
+            <li><a href="#conquistas">Conquistas</a></li>
         </ul>
     </header>
   )

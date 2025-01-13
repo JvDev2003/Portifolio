@@ -4,7 +4,7 @@ import styles from "./Experiencias.module.css"
 
 const Experiencias = () => {
   return (
-    <article className={styles.experiecias}>
+    <article className={styles.experiecias} id="experiencias">
         <h2>Experiências</h2>
         <div>
         {experiencias.map(experiencia => (

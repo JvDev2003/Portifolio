@@ -4,7 +4,7 @@ import CardConquista from "../components/CardConquista"
 
 const Conquistas = () => {
   return (
-    <article className={style.container}>
+    <article className={style.container} id="conquistas">
         <h2>Conquistas</h2>
         <div>
             {conquistas.map(conquista => (

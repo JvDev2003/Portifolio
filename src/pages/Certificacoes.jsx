@@ -5,7 +5,7 @@ import CardCertificacao from '../components/CardCertificacao'
 
 const Certificacoes = () => {
   return (
-    <article className={styles.container}>
+    <article className={styles.container} id="certificacoes">
         <h2>Certificados</h2>
         <div>
             {certificacoes.map(certificacao => <CardCertificacao {...certificacao}/>)}
