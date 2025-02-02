@@ -1,5 +1,12 @@
 export const certificacoes = [
   {
+    curso: " React do Zero a Maestria (c/ hooks, router, API, Projetos)",
+    instituicao: "Udemy",
+    conclusao: "02/2025",
+    tecnologias: ["React.Js", "Redux", "Mongo", "Express.js", "Firebase"],
+    link: "https://www.udemy.com/certificate/UC-0a6e2740-dfcb-4cfe-9864-c148f0321518/",
+  },
+  {
     curso: "Design Patterns em TypeScript Entendendo Padrões de Projetos",
     instituicao: "Udemy",
     conclusao: "01/2025",
