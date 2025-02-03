@@ -1,5 +1,15 @@
 export const projetos = [
   {
+    nome: "ReactGram",
+    imagem: "/Portifolio/ReactGram.png",
+    descricao:
+      "Aplicação criarda para emular uma rede social e suas funcionalidades, como postagens, interações, etc.",
+    tecnologias: ["TypeScript", "MongoDB", "React", "Express", "Node", "Redux"],
+    link: "https://github.com/JvDev2003/ReactGram",
+    stack: ["front", "back"],
+    finished: true,
+  },
+  {
     nome: "Task Controller",
     imagem: "/Portifolio/task.png",
     descricao: "Aplicação criada para o controle pessoal das minhas tarefas",
